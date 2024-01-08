@@ -1,0 +1,1 @@
+Welcome to the TypeScript! This project is designed to introduce you to TypeScript, a powerful language for application-scale JavaScript development. TypeScript offers type checking and is aimed at making the coding process more robust and efficient.
