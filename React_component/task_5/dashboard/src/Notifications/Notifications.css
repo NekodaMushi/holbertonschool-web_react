@@ -1,0 +1,29 @@
+.Notifications {
+  border: dashed;
+  border-color: rgb(237, 100, 100);
+  padding: 2%;
+  font-weight: bold;
+  float: right;
+}
+
+button img {
+  width: 15px;
+  height: 15px;
+}
+
+li[data-priority="default"] {
+  color: blue;
+}
+
+li[data-priority="urgent"] {
+  color: red;
+}
+
+.menuItem {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menuItem p {
+  font-weight: bold;
+}

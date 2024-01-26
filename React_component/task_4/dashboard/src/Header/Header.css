@@ -1,0 +1,17 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+}
+
+.App-header h1 {
+  color: #eb4034;
+}
+
+.App-header img {
+  width: 200px;
+  height: 200px;
+}

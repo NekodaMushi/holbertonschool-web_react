@@ -1,0 +1,13 @@
+export const getFullYear = () => {
+  let dateObj = new Date();
+  return dateObj.getFullYear();
+}
+
+export const getFooterCopy = (isIndex) => {
+  if (isIndex) {
+    return 'Holberton School';
+  } else {
+    return 'Holberton School main dashboard';
+  }
+}
+

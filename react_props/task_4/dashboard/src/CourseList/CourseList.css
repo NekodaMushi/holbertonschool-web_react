@@ -1,0 +1,35 @@
+#CourseList {
+  width: 90%;
+  border: 1px solid lightgray;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+thead tr {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 65%);
+}
+
+thead tr th[colspan=2] {
+  grid-column: 2/2;
+  display: flex;
+  border-bottom: 1px solid lightgray;
+}
+
+tbody tr {
+  border-top: 1px solid lightgray;
+  display: grid;
+  grid-template-columns: repeat(2, 65%);
+}
+
+tr th {
+  display: flex;
+  justify-content: flex-start;
+}
+
+thead tr th:first-child {
+  padding-left: 65%;
+  border-bottom: 1px solid lightgray;
+}

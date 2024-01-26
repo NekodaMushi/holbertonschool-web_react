@@ -1,0 +1,14 @@
+.App-footer {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-style: italic;
+}
+
+.App-footer:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #eb4034;
+}

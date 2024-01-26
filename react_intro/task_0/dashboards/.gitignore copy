@@ -1,0 +1,7 @@
+__pycache__/
+*main.py
+*main.js
+.gitignore
+/node_modules
+package-lock.json
+test.*
